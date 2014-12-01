@@ -371,7 +371,23 @@ margin-top: 10px;
 #primary_links a:hover{
  text-decoration: underline;
 }
-
+#nav{
+  height:50px;
+  border: 1px solid #000;
+}
+.links{
+  list-style-type: none;
+  text-decoration:none;
+  text-align: center;
+}
+.links li{
+  display:inline;
+  padding: 0 60px 0 20px;
+}
+.links li a{
+  text-decoration:none;
+  color:#000;
+}
 #content {
   
   width: 545px;

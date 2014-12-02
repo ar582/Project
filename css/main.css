@@ -338,39 +338,7 @@ margin-top: 28px;
 float: left;
 line-height: 12px;
 }
-#primary_links_area{
-  height:69px;
-  border:1px solid;
-  float:left;
-}
-#primary_links {
-height: 53px;
-line-height: 139px;
-float: right;
-margin-right: 25px;
-margin-top: 10px;
-}
-#primary_links li {
 
-  display: inline;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-}
-
-#primary_links ul {
-  margin: 0px;
-}
-
-#primary_links .mid {
- margin-left: 25px;
- margin-right: 35px;
-}
-#primary_links a {
- text-decoration: none;
- color: #837D7D;
-}
-#primary_links a:hover{
- text-decoration: underline;
-}
 #nav{
   height:50px;
   border: 1px solid #000;
@@ -388,8 +356,54 @@ margin-top: 10px;
   text-decoration:none;
   color:#000;
 }
+#wrapper{
+  clear:both;
+  border:1px solid #000;
+  width: 985px;
+  height:100%;
+}
+.align-center{
+text-align: center;
+font-family: Helvetica, sans-serif;
+}
+.title{
+font-size: 200%;
+}
+.subtitle{
+font-size: 100%;
+text-align: center;
+font-family: Helvetica, sans-serif;
+text-align: center;
+font-stretch: extra-condensed;
+line-height: 0px;
+font-weight: 100;
+}
+.subtitle2{
+font-size: 90%;
+letter-spacing: 6px;
+}
+#video{
+  margin: 0px auto;
+  width:549px;
+  height:279px;
+  background-color: rgb(74,91,102);
+  border:1px solid #000;
+  position: relative;
+}
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color:#000;
+  border:1px solid #fff;
+  margin: 0px auto;
+  line-height: 100px;
+  /* width and height can be anything, as long as they're equal */
+}
+.circle img{
+
+}
 #content {
-  
   width: 545px;
   float: left;
   margin-left:24px;

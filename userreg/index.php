@@ -3,8 +3,8 @@
 <head>
 	<meta name="keywords" content="basic jquery validation form demo" />
 
-<script type="text/javascript" src="../js/jquery-1.6.4.js"></script>
-<script type="text/javascript" src="../script.js"></script>
+<script type="text/javascript"i src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
 <script type="text/javascript" src="jquery.validate.min.js"></script>
 
 
@@ -71,12 +71,15 @@ h2 {
 }
 </style>
 
+
 <script type="text/javascript">
 /**
   * Basic jQuery Validation Form Demo Code
   * Copyright Sam Deering 2012
   * Licence: http://www.jquery4u.com/license/
   */
+
+
 (function($,W,D)
 {
     var JQUERY4U = {};
@@ -131,9 +134,9 @@ h2 {
 
 <div id="content">
 
-<h1>Basic jQuery Validation Form Demo</h1>
+<h1>User Registration Form</h1>
 
-<p class="padleft">This demo shows you how easy validation your forms can be using a little jQuery. It uses the jQuery validation plugin and some basic input validation rules. See the tutorial for details on how to setup your own validation in just a few minutes.</p>
+<p class="padleft">Register below to enter for a chance to win a million dollars!</p>
 
 <!-- HTML form for validation demo -->
 <form action="" method="post" id="register-form" novalidate="novalidate">
@@ -176,12 +179,12 @@ h2 {
         </div>
 </form>
 <!-- END HTML form for validation -->
-
+<!--code
 <p>
 <a class="seelivedemo" href="http://www.jquery4u.com/forms/basic-jquery-form-validation-tutorial/">Tutorial</a>
 <a class="seelivedemo" href="http://www.jquery4u.com/demos/basic-jquery-validation-form/basic-jquery-validation-form-demo.zip">Download</a>
 </p>
-
+-->
 </div>
 
 </div> <!-- end page wrap -->

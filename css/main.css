@@ -273,13 +273,7 @@ padding:0px;
 body{
 background-color: #fff;
 }
-#wrapper {
-   background-color: #F5F5F5;
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
-   border: 1px solid;
-}
+
 h1{
  font-size: 220%;
 }
@@ -362,11 +356,14 @@ line-height: 12px;
   color:#fff;
   font-family: 'Open Sans', sans-serif;
 }
+#wrapper {
+   width: 980px;
+   margin-left: auto;
+   margin-right: auto;
+}
 #wrapper{
   clear:both;
-  border:1px solid #000;
   width: 985px;
-  height:1000px;
 }
 .align-center{
 text-align: center;
@@ -476,10 +473,13 @@ padding: 0px 0px 0px 10px;
   color: #fff;
   margin-left:6px;
 }
+#contentbox{
+
+}
 #content{
+clear: both;
 width: 490px;
 float: left;
-border: 1px #000 solid;
 margin-top: 41px;
 letter-spacing: 0px;
 font-size: 13.3px;
@@ -497,7 +497,6 @@ margin: 0px;
 #sidebar {
 width: 422px;
 float: right;
-border: 1px #000 solid;
 margin-top: 41px;
 letter-spacing: 0px;
 font-size: 13.3px;
@@ -506,9 +505,49 @@ font-size: 13.3px;
 font-family: 'Open Sans', sans-serif;
 color: #2c2c2c;
 }
+#rectangle{
+height: 536px;
+clear: both;
+width: 26px;
+float: left;
+}
+#rectangle img{
+margin-top: 45.5px;
+height: 100%;
+}
+#table_area{
+width:100%;
+float: left
+}
+#table_area table{
+margin-top: 47px;
+height: 536px;
+}
+#table_area table th{
+width: 319px;
+height: 66px;
+background-color: #7f8c8d;
+font-family: 'Open Sans', sans-serif;
+font-size: 22px;
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+letter-spacing: 5px;
+}
+#table_area table  tbody tr td{
+background-color: rgb(247,247,247);
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #777;
+padding-left: 32px;
+text-align: left;
+}
+#table_area table tbody tr{
+  border:1px solid #000;
+}
 #footer{
-  clear: both;
-  border-top: 1px solid #bbbab6;
+clear: both;
+border-top: 1px solid #bbbab6;
 }
 #footer_links ul{
 line-height: 31px;
@@ -518,7 +557,6 @@ font-size:19px;
   display:inline;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
-
 #footer_links a{
   text-decoration: none;
 }

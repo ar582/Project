@@ -292,6 +292,9 @@ h5{
 h6 {
  font-size: 120%;
 }
+ul{
+  padding:0 0 0 0;
+}
 #header{
 height: 86px;
 }
@@ -364,6 +367,15 @@ line-height: 12px;
 #wrapper{
   clear:both;
   width: 985px;
+
+}
+.outer-wrapper{
+width:100%;
+clear:both;
+}
+.color{
+background-color: #eef1f5;
+clear:both;
 }
 .align-center{
 text-align: center;
@@ -380,8 +392,10 @@ text-align: center;
 font-stretch: extra-condensed;
 line-height: 0px;
 font-weight: 100;
+color:#8f8f8f;
 }
 .subtitle2{
+color:#3f8252;
 font-size: 90%;
 letter-spacing: 6px;
 }
@@ -395,14 +409,19 @@ letter-spacing: 6px;
   margin-bottom: 40px;
 }
 .circle {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  color:#000;
-  border:1px solid #fff;
   margin: 0px auto;
   line-height: 100px;
-  /* width and height can be anything, as long as they're equal */
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #384045;
+  position: relative;
+  top: 95px;
+  left: 10px;;
+}
+
 }
 .circle img{
 width: 46px;
@@ -517,11 +536,13 @@ height: 100%;
 }
 #table_area{
 width:100%;
-float: left
+float: left;
+padding-bottom: 31px;
 }
 #table_area table{
 margin-top: 47px;
 height: 536px;
+
 }
 #table_area table th{
 width: 319px;
@@ -547,8 +568,10 @@ text-align: left;
 }
 #heating{
 clear:both;
+background-color: #eef1f5;
 }
 #heating h1{
+line-height: 25px;
 text-align: center;
 font-family:Helvetica;
 font-size: 36px;
@@ -565,6 +588,7 @@ text-align:center;
 clear:both;
 }
 #cooling h1{
+line-height: 25px;
 text-align: center;
 font-family:Helvetica;
 font-size: 36px;
@@ -589,6 +613,7 @@ text-align:center;
   height: 175px;
 }
 #about{
+background-color: #eef1f5;
 clear:both;
 }
 #about h1{
@@ -603,7 +628,9 @@ margin:0px;
 font-family: 'Open Sans', sans-serif;
 font-size:14px;
 text-align:center; 
-}  
+}
+.manufacturer{
+  list-style-type: none;
 }
 #footer{
 clear: both;

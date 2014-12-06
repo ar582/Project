@@ -545,6 +545,66 @@ text-align: left;
 #table_area table tbody tr{
   border:1px solid #000;
 }
+#heating{
+clear:both;
+}
+#heating h1{
+text-align: center;
+font-family:Helvetica;
+font-size: 36px;
+letter-spacing: 4px;
+color: #c0392b;
+margin:0px;
+}
+#heating p{
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+text-align:center;
+}
+#cooling{
+clear:both;
+}
+#cooling h1{
+text-align: center;
+font-family:Helvetica;
+font-size: 36px;
+letter-spacing: 4px;
+color: #2980b9;
+margin:0px;
+}
+#cooling p{
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+text-align:center; 
+}
+.imagelist{
+text-align:center;
+}
+.imagelist li{
+  display:inline;
+  margin: 0px 19px 0px 19px;
+}
+.imagelist li img{
+  width: 240px;
+  height: 175px;
+}
+#about{
+clear:both;
+}
+#about h1{
+text-align: center;
+font-family:Helvetica;
+font-size: 36px;
+letter-spacing: 4px;
+color: #2c2c2c;
+margin:0px;
+}
+#about p{
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+text-align:center; 
+}  
+}
 #footer{
 clear: both;
 border-top: 1px solid #bbbab6;

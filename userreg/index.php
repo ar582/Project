@@ -8,7 +8,7 @@
 <script type="text/javascript" src="jquery.validate.min.js"></script>
 
 
-<title>User Registration Form</title>
+<title>Questions, Comments or Concerns?</title>
 
 <link rel="stylesheet" type="text/css" href="../styles.css">
 <style lang="text/css">
@@ -107,8 +107,8 @@ h2 {
                     firstname: "Please enter your firstname",
                     lastname: "Please enter your lastname",
                     password: {
-                        required: "Please provide a password",
-                        minlength: "Your password must be at least 5 characters long"
+                        required: "Please provide a subject and brief summary",
+                        minlength: "Your content  must be at least 20 characters long"
                     },
                     email: "Please enter a valid email address",
                     agree: "Please accept our policy"
@@ -134,14 +134,15 @@ h2 {
 
 <div id="content">
 
-<h1>User Registration Form</h1>
+<h1>Customer Service Form</h1>
 
-<p class="padleft">Register below to enter for a chance to win a million dollars!</p>
+<p class="padleft">Enter your contact information below and one of our
+representatives will be reaching out to you in less than one business day.</p>
 
 <!-- HTML form for validation demo -->
 <form action="" method="post" id="register-form" novalidate="novalidate">
 
-    <h2>User Registration</h2>
+    <h2>Contact Us</h2>
 
     <div id="form-content">
         <fieldset>
@@ -162,20 +163,21 @@ h2 {
             </div>
 
             <div class="fieldgroup">
-                <label for="password">Password</label>
-                <input type="password" name="password">
+                <label for="password">Subject and Short Description</label>
+                <input type="text" name="password">
             </div>
 
             <div class="fieldgroup">
-                <p class="right">By clicking register you agree to our policy.</p>
-                <input type="submit" value="Register" class="submit">
+                <p class="right">By clicking submit, you are sending your
+		contact information to Apple, Inc.</p>
+                <input type="submit" value="Submit" class="submit">
             </div>
 
         </fieldset>
     </div>
 
         <div class="fieldgroup">
-            <p>Already registered? Sign in.</p>
+            <p>Want to speak to a live person ASAP? Call 1-800-123-4567.</p>
         </div>
 </form>
 <!-- END HTML form for validation -->
